@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(26, 26, 26, 0.8); /* Dark background color with opacity */
+    z-index: 1000; /* Ensure the header stays above other content */
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+
+}
+
+.logo img {
+    width: 150px; /* Adjust logo size as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Link color */
+}
+
+nav ul li a:hover {
+    color: #ffcd00; /* Hover color */
+}
+
+.cta-button {
+    background-color: #ffcd00; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #e6b800; /* Button hover background color */
+}
+.hero {
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.98H0RAJFotfL2zfP9DdmOgHaEo&pid=Api&P=0&h=180); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff; /* Text color */
+  
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ffcd00; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cta-button:hover {
+    background-color: #e6b800; /* Button hover background color */
+}
+.featured-products {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 50px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product img {
+    width: 200px; /* Adjust image size as needed */
+    border-radius: 10px;
+}
+
+.product h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.order-button {
+    background-color: #ffcd00; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.order-button:hover {
+    background-color: #e6b800; /* Button hover background color */
+}
+.about-us {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+ 
+}
+
+.about-content {
+    padding: 0 20px;
+}
+
+.about-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ffcd00;
+}
+
+.about-content p {
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.menu-overview {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.categories {
+    margin-bottom: 30px;
+}
+
+.categories h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categories li {
+    margin-right: 20px;
+}
+
+.categories img {
+    width: 200px; /* Adjust image size as needed */
+    border-radius: 10px;
+}
+
+.categories p {
+    font-size: 16px;
+}
+.footer {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-links,
+.contact-info,
+.social-media,
+.newsletter {
+    margin-bottom: 30px;
+}
+
+.footer-links h3,
+.contact-info h3,
+.social-media h3,
+.newsletter h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.newsletter form input[type="email"],
+.newsletter form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter form input[type="email"] {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.newsletter form button {
+    background-color: #ffcd00; /* Button background color */
+    color: #1a1a1a; /* Button text color */
+    cursor: pointer;
+}
+
+.newsletter form button:hover {
+    background-color: #e6b800; /* Button hover background color */
+}
